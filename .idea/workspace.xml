@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a95cced4-168e-448e-9f62-4e5d28f44156" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3JrH1ZDD2RpmzCN2GYUZrGWK03r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.FAQTest.faqItemOpensAnswer.executor": "Run",
+    "JUnit.LogoTest.clickScooterLogoRedirectsToMainPage.executor": "Run",
+    "JUnit.LogoTest.clickYandexLogoOpensYandexInNewTab.executor": "Run",
+    "JUnit.OrderTest.executor": "Run",
+    "JUnit.OrderTest.orderScooterSuccessfully (1).executor": "Run",
+    "JUnit.OrderTest.orderScooterSuccessfully.executor": "Run",
+    "JUnit.TrackTest.invalidOrderNumberShowsNotFound.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "autotests",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/qa_stanislav/IdeaProjects/Sprint_6/src/main/java/org/example/Main.java",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.OrderTest">
+    <configuration name="FAQTest.faqItemOpensAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.samokat.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.samokat.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.samokat.tests.FAQTest" />
+      <option name="METHOD_NAME" value="faqItemOpensAnswer(int,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoTest.clickScooterLogoRedirectsToMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.samokat.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.samokat.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.samokat.tests.LogoTest" />
+      <option name="METHOD_NAME" value="clickScooterLogoRedirectsToMainPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoTest.clickYandexLogoOpensYandexInNewTab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.samokat.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.samokat.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.samokat.tests.LogoTest" />
+      <option name="METHOD_NAME" value="clickYandexLogoOpensYandexInNewTab" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.samokat.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.samokat.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.samokat.tests.OrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrackTest.invalidOrderNumberShowsNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.samokat.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.yandex.samokat.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.samokat.tests.TrackTest" />
+      <option name="METHOD_NAME" value="invalidOrderNumberShowsNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.FAQTest.faqItemOpensAnswer" />
+        <item itemvalue="JUnit.LogoTest.clickYandexLogoOpensYandexInNewTab" />
+        <item itemvalue="JUnit.TrackTest.invalidOrderNumberShowsNotFound" />
+        <item itemvalue="JUnit.LogoTest.clickScooterLogoRedirectsToMainPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a95cced4-168e-448e-9f62-4e5d28f44156" name="Changes" comment="" />
+      <created>1790412055961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790412055961</updated>
+      <workItem from="1790412057160" duration="3001000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
