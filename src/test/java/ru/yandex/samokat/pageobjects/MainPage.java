@@ -68,6 +68,16 @@ public class MainPage {
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
     }
 
+    public String getFaqQuestionText(int index) {
+        By locator = By.xpath(String.format(faqItemByIndex, index));
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).getText();
+    }
+
+    public String getFaqAnswerText(int index) {
+        By locator = By.xpath(String.format(faqAnswerByIndex, index));
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).getText();
+    }
+
     public boolean isFaqAnswerVisible(int index) {
         By locator = By.xpath(String.format(faqAnswerByIndex, index));
         try {

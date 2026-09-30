@@ -15,7 +15,7 @@ public class LogoTest extends BaseTest {
 
     @Test
     public void clickScooterLogoRedirectsToMainPage() {
-        setUp("chrome");
+        setUp();
         MainPage mainPage = new MainPage(driver);
         mainPage.open();
         mainPage.clickTopOrderButton();
@@ -29,7 +29,7 @@ public class LogoTest extends BaseTest {
 
     @Test
     public void clickYandexLogoOpensYandexInNewTab() {
-        setUp("chrome");
+        setUp();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         MainPage mainPage = new MainPage(driver);
         mainPage.open();

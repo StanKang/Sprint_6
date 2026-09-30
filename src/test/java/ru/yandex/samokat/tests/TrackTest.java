@@ -10,7 +10,7 @@ public class TrackTest extends BaseTest {
 
     @Test
     public void invalidOrderNumberShowsNotFound() {
-        setUp("chrome");
+        setUp();
         TrackPage trackPage = new TrackPage(driver);
         trackPage.open("99999999");
         trackPage.clickView();

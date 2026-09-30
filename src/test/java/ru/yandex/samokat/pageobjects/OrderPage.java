@@ -112,7 +112,7 @@ public class OrderPage {
     public OrderConfirmPage clickOrder() {
         driver.findElement(orderButton).click();
         WebElement confirm = wait.until(ExpectedConditions.elementToBeClickable(confirmButton));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", confirm);
+        confirm.click();
         return new OrderConfirmPage(driver);
     }
 }

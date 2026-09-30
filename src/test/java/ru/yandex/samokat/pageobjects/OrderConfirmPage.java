@@ -9,14 +9,12 @@ import java.time.Duration;
 
 public class OrderConfirmPage {
 
-    private final WebDriver driver;
     private final WebDriverWait wait;
 
-    // Модальное окно подтверждения заказа «Хотите оформить заказ?»
+    // Модальное окно «Заказ оформлен»
     private final By confirmModal = By.xpath("//div[@class='Order_ModalHeader__3FDaJ']");
 
     public OrderConfirmPage(WebDriver driver) {
-        this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
