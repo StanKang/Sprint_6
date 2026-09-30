@@ -13,6 +13,7 @@ public class OrderConfirmPage {
 
     // Модальное окно «Заказ оформлен»
     private final By confirmModal = By.xpath("//div[@class='Order_ModalHeader__3FDaJ']");
+    private final By orderNumber = By.xpath("//div[@class='Order_Text__2broi']");
 
     public OrderConfirmPage(WebDriver driver) {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -25,5 +26,9 @@ public class OrderConfirmPage {
         } catch (Exception e) {
             return false;
         }
+    }
+
+    public String getOrderNumberText() {
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(orderNumber)).getText();
     }
 }

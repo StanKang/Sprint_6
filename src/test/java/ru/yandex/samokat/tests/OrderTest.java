@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import java.util.regex.Pattern;
 
 public class OrderTest extends BaseTest {
 
@@ -51,6 +52,22 @@ public class OrderTest extends BaseTest {
         assertTrue(confirmPage.isSuccessModalVisible(),
                 "Модальное окно не появилось");
 
+        driver.quit();
+    }
+
+    @Test
+    public void orderConfirmedWithOrderNumber() {
+        setUp();
+        MainPage mainPage = new MainPage(driver);
+        mainPage.open();
+        OrderPage orderPage = mainPage.clickTopOrderButton();
+        orderPage.fillStep1("Иван", "Иванов", "ул. Ленина 1", "+79161234567");
+        orderPage.clickNext();
+        OrderConfirmPage confirmPage = orderPage.fillStep2("25.12.2024", "Позвонить за час").clickOrder();
+        assertTrue(confirmPage.isSuccessModalVisible(), "Модальное окно не появилось");
+        String text = confirmPage.getOrderNumberText();
+        assertTrue(Pattern.compile("Номер заказа: \\d+").matcher(text).find(),
+                "Номер заказа не найден в тексте: " + text);
         driver.quit();
     }
 
