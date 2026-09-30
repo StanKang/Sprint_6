@@ -33,7 +33,7 @@ public class OrderTest extends BaseTest {
             String date,
             String comment
     ) {
-        setUp(); // Firefox не поддерживается на macOS Tahoe (geckodriver bug)
+        setUp();
         MainPage mainPage = new MainPage(driver);
         mainPage.open();
 
